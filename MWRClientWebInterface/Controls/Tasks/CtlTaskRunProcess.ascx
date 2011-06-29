@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CtlTaskRunProcess.ascx.cs" Inherits="MWRClientWebInterface.Controls.Tasks.CtlTaskRunProcess" %>
+<p>Nazwa procesu (ze ścieżką): <asp:TextBox runat="server" ID="tbProcessName" EnableViewState="false" /></p>

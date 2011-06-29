@@ -1,0 +1,241 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E9F637C-1A93-4E5D-BADB-E61C9EDAE06D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MWRClientWebInterface</RootNamespace>
+    <AssemblyName>MWRClientWebInterface</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\BaseBusinessObject.cs" />
+    <Compile Include="Configuration\ConfSectionState.cs" />
+    <Compile Include="Configuration\ConfSectionTask.cs" />
+    <Compile Include="Controls\BaseControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\BaseTaskControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\CommonTaskDetails.ascx.cs">
+      <DependentUpon>CommonTaskDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\CommonTaskDetails.ascx.designer.cs">
+      <DependentUpon>CommonTaskDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\CtlTaskFileManage.ascx.cs">
+      <DependentUpon>CtlTaskFileManage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\CtlTaskFileManage.ascx.designer.cs">
+      <DependentUpon>CtlTaskFileManage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\CtlTaskKillProcess.ascx.cs">
+      <DependentUpon>CtlTaskKillProcess.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\CtlTaskKillProcess.ascx.designer.cs">
+      <DependentUpon>CtlTaskKillProcess.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\CtlTaskMakeScreenshoot.ascx.cs">
+      <DependentUpon>CtlTaskMakeScreenshoot.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\CtlTaskMakeScreenshoot.ascx.designer.cs">
+      <DependentUpon>CtlTaskMakeScreenshoot.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tasks\CtlTaskRunProcess.ascx.cs">
+      <DependentUpon>CtlTaskRunProcess.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tasks\CtlTaskRunProcess.ascx.designer.cs">
+      <DependentUpon>CtlTaskRunProcess.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\States\ProcessInfoStateInfoControl.ascx.cs">
+      <DependentUpon>ProcessInfoStateInfoControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\States\ProcessInfoStateInfoControl.ascx.designer.cs">
+      <DependentUpon>ProcessInfoStateInfoControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\States\BaseStateControl.ascx.cs">
+      <DependentUpon>BaseStateControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\States\BaseStateControl.ascx.designer.cs">
+      <DependentUpon>BaseStateControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\States\IsAliveStateControl.ascx.cs">
+      <DependentUpon>IsAliveStateControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\States\IsAliveStateControl.ascx.designer.cs">
+      <DependentUpon>IsAliveStateControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TestControl.ascx.cs">
+      <DependentUpon>TestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TestControl.ascx.designer.cs">
+      <DependentUpon>TestControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dictionary.aspx.cs">
+      <DependentUpon>Dictionary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dictionary.aspx.designer.cs">
+      <DependentUpon>Dictionary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logon.aspx.cs">
+      <DependentUpon>Logon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logon.aspx.designer.cs">
+      <DependentUpon>Logon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MWRBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="States.aspx.cs">
+      <DependentUpon>States.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="States.aspx.designer.cs">
+      <DependentUpon>States.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks.aspx.cs">
+      <DependentUpon>Tasks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tasks.aspx.designer.cs">
+      <DependentUpon>Tasks.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MWRClientLib\MWRClientLib.csproj">
+      <Project>{4706A736-6D0B-430A-8217-925585BDD0A6}</Project>
+      <Name>MWRClientLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MWRCommonTypes\MWRCommonTypes.csproj">
+      <Project>{D3C34B32-89BA-4516-9FA0-80047C2DF7EB}</Project>
+      <Name>MWRCommonTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProxyServer\ProxyServer.csproj">
+      <Project>{BF0B7745-F336-401A-B2BC-4323C59E8B37}</Project>
+      <Name>ProxyServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls\Tasks\CommonTaskDetails.ascx" />
+    <Content Include="Controls\Tasks\CtlTaskFileManage.ascx" />
+    <Content Include="Controls\Tasks\CtlTaskKillProcess.ascx" />
+    <Content Include="Controls\Tasks\CtlTaskMakeScreenshoot.ascx" />
+    <Content Include="Controls\Tasks\CtlTaskRunProcess.ascx" />
+    <Content Include="Controls\States\ProcessInfoStateInfoControl.ascx" />
+    <Content Include="Controls\States\BaseStateControl.ascx" />
+    <Content Include="Controls\States\IsAliveStateControl.ascx" />
+    <Content Include="Controls\TestControl.ascx" />
+    <Content Include="Dictionary.aspx" />
+    <Content Include="Logon.aspx" />
+    <Content Include="Main.Master" />
+    <Content Include="States.aspx" />
+    <Content Include="Styles\MWRStyle.css" />
+    <Content Include="Tasks.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2279</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

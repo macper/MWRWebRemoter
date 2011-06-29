@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MWRClientWebInterface.Main" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>MWRemoter - Client Interface</title>
+    <link href="Styles/MWRStyle.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border:none; margin:0">
+        <tr>
+					<td style="text-align:left;">
+            <h1>MWRemoter Interface</h1>
+          </td>
+          <td style="text-align:right">
+						<span style="font-size:10pt">Maszyna:</span>
+            <asp:DropDownList ID="ddlMachine" runat="server" style="margin:0px;padding:0px" 
+                    onselectedindexchanged="ddlMachine_SelectedIndexChanged" 
+							EnableViewState="false" AutoPostBack="true" Height="16px">
+            </asp:DropDownList>
+          </td>
+        </tr>
+        </table>
+							<div class="MainMenu">
+								<a href="States.aspx">Stany</a>
+								<a href="Tasks.aspx">Zadania</a>
+								<a href="Dictionary.aspx">Słowniki</a>
+              </div>
+        <asp:Label ID="lbMessage" Font-Size="9pt" EnableViewState="false" runat="server" CssClass="MessageLabel"  Visible="false"/>
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="page_footer">
+					&copy 2009, M.Perszewski
+        </div>
+    </div>
+    </form>
+</body>
+</html>

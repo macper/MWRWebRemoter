@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="MachineTest" storage="c:\documents and settings\macper\moje dokumenty\visual studio 2008\projects\macwebremoter\test\machinetest.orderedtest" id="75b8c1c5-0b55-45d8-837b-d5473d45950d" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <Css projectStructure="" iteration="" />
+  <Execution timeOut="2147483647" id="048c28a4-3e1c-4451-b696-7f57cfbccf87" />
+  <Owners>
+    <Owner name="" />
+  </Owners>
+  <TestLinks>
+    <TestLink id="9827d071-1f63-5e22-bf9a-cfb9b4d042ea" name="DBMachineInsertTest" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="222abfec-09fd-9d78-3927-5b703689a6e7" name="DBMachineDeleteTest1" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="90e972ba-a160-7727-2c12-684ea15a0d35" name="DBMachineLoadTest" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="6f04020e-5c3f-3854-22fa-5251fb394dee" name="DBMachineDeleteTest2" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="eb8b71fe-c561-48c4-9965-6af79c3a7c1a" name="AddPrivillegesTest" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

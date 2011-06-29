@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="dictionary" storage="c:\documents and settings\macper\moje dokumenty\visual studio 2008\projects\macwebremoter\test\dictionary.orderedtest" id="fca0ea5b-e50c-4ece-8fba-f6d736a9eaed" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <Css projectStructure="" iteration="" />
+  <Execution timeOut="2147483647" id="ac9244de-e2ae-432e-aab6-c89fef537cbd" />
+  <Owners>
+    <Owner name="" />
+  </Owners>
+  <TestLinks>
+    <TestLink id="09893d6d-fccc-06d6-61f4-7864dda437bf" name="InsertTest" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="c7af76a7-9310-76de-8841-1c97ffd98476" name="LoadTest" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="1e4118f8-71dc-5809-30c1-6a178bc25e70" name="UpdateTest" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="2e9a2fee-947e-7b80-e2dd-1ff79acdedd0" name="DeleteTest" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="e09d5925-3eb0-e91d-a046-789d0c6aa7a5" name="CollectionTest" storage="bin\debug\test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

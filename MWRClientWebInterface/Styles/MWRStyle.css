@@ -1,0 +1,157 @@
+* {
+	margin: 0px 0px 7px 0px;
+	padding: 0px;
+}
+
+body {
+	padding: 16px 0px 10px;
+	background: url('images/background.jpg') #5f92d2 repeat-x 0% 0%;
+	color: #fff;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #bfd8f6;
+}
+
+
+img {
+	border: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+p {
+	margin: 10px 0px 5px;
+	text-align: justify;
+	line-height: 14px;
+}
+
+input {
+	background-color: #eff3f7;
+	border: 2px solid #eff3f7;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 9px;
+	margin:0;
+}
+
+
+select
+{
+	border: 2px solid #eff3f7;
+	color: #537caf;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 10px;
+	margin:0;
+	padding:0;
+}
+
+.MainMenu
+{
+	text-align:left;
+	font-size:10pt;
+	font-weight:bold;
+	padding-left:5px;
+	height:20px;
+	border-top: dashed 1px white;
+	border-bottom: dashed 1px white;
+}
+
+.MessageLabel
+{
+	display:block;
+	background-color:White;
+	padding:2px;
+	margin:3px;
+	border:1px solid black;
+}
+
+.MainMenu a
+{
+	text-decoration:none;
+}
+
+#container {
+	margin: 0px auto;
+	width: 768px;
+	border: 1px solid #fff;
+	background-color:#05224C;
+}
+
+.FormTable
+{
+	border:1px solid white;
+	background-color:#05224C;
+	margin:2px;
+	padding:2px;
+	width:99%;
+}
+
+.FormTable td
+{
+	margin:2px;
+	background-color:#3E74C3;
+}
+
+
+/* Page Header */
+
+
+#page_header {
+	width: 766px;
+	height: 130px;
+	overflow: hidden;
+}
+
+.windowTitle
+{
+	font-size:10pt;
+	font-weight:bold;
+	padding:3px;
+	text-align:center;
+	border:1px dashed white;
+	background-color:#3E74C3;
+}
+
+/* Page Header : Company Name & Logo */
+
+h1
+{
+	font-size:14pt;
+	margin:5px;
+}
+
+
+.box_container {
+	margin: 2px;
+	padding:2px;
+	border: 1px solid #fff;
+	background-color: #114287;
+}
+
+.login
+{
+	background-color:#3E74C3;
+	border:1px dashed #fff;
+	padding:4px;
+}
+
+#page_footer {
+	margin: 3px;
+	text-align: center;
+	font-size: 11px;
+	border-top:1px dashed white;
+}

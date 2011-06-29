@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StateConfiguration>
+  <StateConfig Assembly="MWRCommonTypes" Type="MWRCommonTypes.States.IsAliveState" Config="" Guid="2A55B578-132D-461d-AA8B-881A16B42A4E" Interval="60" />
+</StateConfiguration>

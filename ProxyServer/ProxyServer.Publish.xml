@@ -1,0 +1,32 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost:81/ProxyServer/">
+    <file relUrl="ClientInterface.asmx" publishTime="01/31/2009 16:29:28" />
+    <file relUrl="bin/MWRCommonTypes.pdb" publishTime="02/15/2009 18:07:57" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder2.dll" publishTime="10/24/2008 18:03:22" />
+    <file relUrl="ServerInterface.asmx" publishTime="01/27/2009 22:41:01" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="10/27/2008 10:11:50" />
+    <file relUrl="Web.config" publishTime="02/11/2009 23:41:52" />
+    <file relUrl="bin/Microsoft.Practices.Unity.dll" publishTime="10/24/2008 18:03:22" />
+    <file relUrl="bin/ProxyServer.pdb" publishTime="02/15/2009 18:07:58" />
+    <file relUrl="bin/ProxyServer.dll" publishTime="02/15/2009 18:07:58" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.xml" publishTime="10/27/2008 10:04:34" />
+    <file relUrl="bin/MWRCommonTypes.dll" publishTime="02/15/2009 18:07:57" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll" publishTime="10/27/2008 10:11:50" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.xml" publishTime="10/27/2008 10:05:06" />
+  </publishTarget>
+  <publishTarget publishUrl="http://localhost/ProxyServer/">
+    <file relUrl="bin/MWRCommonTypes.dll" publishTime="02/10/2009 20:50:48" />
+    <file relUrl="ClientInterface.asmx" publishTime="01/31/2009 16:29:28" />
+    <file relUrl="bin/MWRCommonTypes.pdb" publishTime="02/10/2009 20:50:48" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder2.dll" publishTime="10/24/2008 18:03:22" />
+    <file relUrl="ServerInterface.asmx" publishTime="01/27/2009 22:41:01" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll" publishTime="10/27/2008 10:11:50" />
+    <file relUrl="Web.config" publishTime="01/31/2009 18:32:42" />
+    <file relUrl="bin/Microsoft.Practices.Unity.dll" publishTime="10/24/2008 18:03:22" />
+    <file relUrl="bin/ProxyServer.pdb" publishTime="02/10/2009 20:50:50" />
+    <file relUrl="bin/ProxyServer.dll" publishTime="02/10/2009 20:50:51" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.xml" publishTime="10/27/2008 10:04:34" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="10/27/2008 10:11:50" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Logging.xml" publishTime="10/27/2008 10:05:06" />
+  </publishTarget>
+</publishData>

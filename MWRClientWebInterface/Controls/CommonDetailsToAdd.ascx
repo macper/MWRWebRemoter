@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CommonDetailsToAdd.ascx.cs" Inherits="MWRClientWebInterface.Controls.CommonDetailsToAdd" %>
+<p>Data realizacji: <asp:TextBox ID="tbDateExecute" runat="server" /></p>

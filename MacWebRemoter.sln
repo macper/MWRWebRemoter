@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer", "ProxyServer\ProxyServer.csproj", "{BF0B7745-F336-401A-B2BC-4323C59E8B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWRCommonTypes", "MWRCommonTypes\MWRCommonTypes.csproj", "{D3C34B32-89BA-4516-9FA0-80047C2DF7EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{2A6CD303-C020-4BFF-A590-731CDD94EDFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{948C5E73-CBD7-4342-BD72-CC10A4B4A59B}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		MacWebRemoter.vsmdi = MacWebRemoter.vsmdi
+		MacWebRemoter1.vsmdi = MacWebRemoter1.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceTester", "WebServiceTester\WebServiceTester.csproj", "{E3232314-8D7E-4AC5-AEEE-6263750ACF1C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF0B7745-F336-401A-B2BC-4323C59E8B37} = {BF0B7745-F336-401A-B2BC-4323C59E8B37}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWRServerLib", "MWRServerLib\MWRServerLib.csproj", "{DAE56C86-B8CC-4741-A6C4-BCF19A94F660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWRClientLib", "MWRClientLib\MWRClientLib.csproj", "{4706A736-6D0B-430A-8217-925585BDD0A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF0B7745-F336-401A-B2BC-4323C59E8B37} = {BF0B7745-F336-401A-B2BC-4323C59E8B37}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerWinFormGUI", "ServerWinFormGUI\ServerWinFormGUI.csproj", "{C145B960-56EF-40AF-BCC1-D56B30C32F2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF0B7745-F336-401A-B2BC-4323C59E8B37} = {BF0B7745-F336-401A-B2BC-4323C59E8B37}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWRClientWebInterface", "MWRClientWebInterface\MWRClientWebInterface.csproj", "{0E9F637C-1A93-4E5D-BADB-E61C9EDAE06D}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MacWebRemoter1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0B7745-F336-401A-B2BC-4323C59E8B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0B7745-F336-401A-B2BC-4323C59E8B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0B7745-F336-401A-B2BC-4323C59E8B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0B7745-F336-401A-B2BC-4323C59E8B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C34B32-89BA-4516-9FA0-80047C2DF7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C34B32-89BA-4516-9FA0-80047C2DF7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C34B32-89BA-4516-9FA0-80047C2DF7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C34B32-89BA-4516-9FA0-80047C2DF7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6CD303-C020-4BFF-A590-731CDD94EDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6CD303-C020-4BFF-A590-731CDD94EDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3232314-8D7E-4AC5-AEEE-6263750ACF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3232314-8D7E-4AC5-AEEE-6263750ACF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3232314-8D7E-4AC5-AEEE-6263750ACF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3232314-8D7E-4AC5-AEEE-6263750ACF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE56C86-B8CC-4741-A6C4-BCF19A94F660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE56C86-B8CC-4741-A6C4-BCF19A94F660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE56C86-B8CC-4741-A6C4-BCF19A94F660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE56C86-B8CC-4741-A6C4-BCF19A94F660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4706A736-6D0B-430A-8217-925585BDD0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4706A736-6D0B-430A-8217-925585BDD0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4706A736-6D0B-430A-8217-925585BDD0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C145B960-56EF-40AF-BCC1-D56B30C32F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C145B960-56EF-40AF-BCC1-D56B30C32F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C145B960-56EF-40AF-BCC1-D56B30C32F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C145B960-56EF-40AF-BCC1-D56B30C32F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9F637C-1A93-4E5D-BADB-E61C9EDAE06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9F637C-1A93-4E5D-BADB-E61C9EDAE06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9F637C-1A93-4E5D-BADB-E61C9EDAE06D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
